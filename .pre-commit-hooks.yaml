@@ -1,5 +1,5 @@
--   id: djlint-format
+-   id: djlint-format-hook
     name: djLint Format
     description: Formats all html templates with djLint
-    entry: djlint . --reformat --format-css --format-js
+    entry: djlint --reformat --profile=django
     language: python
