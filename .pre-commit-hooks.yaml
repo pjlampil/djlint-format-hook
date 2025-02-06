@@ -1,0 +1,5 @@
+-   id: djlint-format
+    name: djLint Format
+    description: Formats all html templates with djLint
+    entry: djlint . --reformat --format-css --format-js
+    language: python
